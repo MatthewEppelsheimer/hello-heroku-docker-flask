@@ -4,7 +4,7 @@
 $ HELLO_PYTHON_HEROKU_NAME=<your heroku app name>
 $ export HELLO_PYTHON_HEROKU_NAME
 
-# Create your heroku app, clone app files
+# Create your heroku app
 $ sh ./setup_heroku.sh
 
 # Build the container, push it to Heroku's registry,

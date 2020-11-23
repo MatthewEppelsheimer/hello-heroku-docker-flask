@@ -14,6 +14,5 @@ fi
 
 heroku container:login
 rm -Rf ./app
-git clone https://github.com/RideReport/infra_code_screen.git app
 heroku create ${HELLO_PYTHON_HEROKU_NAME}
 
